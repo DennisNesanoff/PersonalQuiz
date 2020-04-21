@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FirstController.swift
 //  PersonalQuiz
 //
 //  Created by Dennis Nesanoff on 22.10.2019.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func unwind(_ sender: UIStoryboardSegue) {
+        
+    }
 
 }
 
