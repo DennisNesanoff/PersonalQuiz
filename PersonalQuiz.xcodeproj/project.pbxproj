@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5E3395244EF9A800B2E991 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E3394244EF9A800B2E991 /* ResponseType.swift */; };
+		8D5E3397244EFABF00B2E991 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E3396244EFABF00B2E991 /* Answer.swift */; };
+		8D5E3399244EFC7900B2E991 /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E3398244EFC7900B2E991 /* AnimalType.swift */; };
 		8D8FF3E7235F9B55007BB676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8FF3E6235F9B55007BB676 /* AppDelegate.swift */; };
 		8D8FF3E9235F9B55007BB676 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8FF3E8235F9B55007BB676 /* SceneDelegate.swift */; };
 		8D8FF3EB235F9B55007BB676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8FF3EA235F9B55007BB676 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D5E3394244EF9A800B2E991 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		8D5E3396244EFABF00B2E991 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		8D5E3398244EFC7900B2E991 /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
 		8D8FF3E3235F9B55007BB676 /* PersonalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8FF3E6235F9B55007BB676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D8FF3E8235F9B55007BB676 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,11 +64,13 @@
 		8D8FF3E5235F9B55007BB676 /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				8D8FF3E6235F9B55007BB676 /* AppDelegate.swift */,
+				8D8FF3E8235F9B55007BB676 /* SceneDelegate.swift */,
 				8D8FF3FD2360D68D007BB676 /* Model */,
 				8D8FF3FE2360D712007BB676 /* View */,
 				8D8FF3FC2360D677007BB676 /* Controller */,
-				8D8FF3FF2360D744007BB676 /* Supporting Files */,
-				8D8FF4002360D7E9007BB676 /* Resources */,
+				8D8FF3EF235F9B5C007BB676 /* Assets.xcassets */,
+				8D8FF3F4235F9B5C007BB676 /* Info.plist */,
 			);
 			path = PersonalQuiz;
 			sourceTree = "<group>";
@@ -79,6 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				8D8FF3FA2360D645007BB676 /* Question.swift */,
+				8D5E3396244EFABF00B2E991 /* Answer.swift */,
+				8D5E3394244EF9A800B2E991 /* ResponseType.swift */,
+				8D5E3398244EFC7900B2E991 /* AnimalType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -90,24 +101,6 @@
 				8D8FF3F1235F9B5C007BB676 /* LaunchScreen.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		8D8FF3FF2360D744007BB676 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8D8FF3E6235F9B55007BB676 /* AppDelegate.swift */,
-				8D8FF3E8235F9B55007BB676 /* SceneDelegate.swift */,
-				8D8FF3F4235F9B5C007BB676 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8D8FF4002360D7E9007BB676 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8D8FF3EF235F9B5C007BB676 /* Assets.xcassets */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D8FF3EB235F9B55007BB676 /* ViewController.swift in Sources */,
+				8D5E3397244EFABF00B2E991 /* Answer.swift in Sources */,
 				8D8FF3FB2360D645007BB676 /* Question.swift in Sources */,
 				8D8FF3E7235F9B55007BB676 /* AppDelegate.swift in Sources */,
 				8D8FF3E9235F9B55007BB676 /* SceneDelegate.swift in Sources */,
+				8D5E3395244EF9A800B2E991 /* ResponseType.swift in Sources */,
+				8D5E3399244EFC7900B2E991 /* AnimalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
